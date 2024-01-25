@@ -7,12 +7,64 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "AccountName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "BankBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MetaMaskWallet",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "NumberOfTransactions",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "OverDraftFlag",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -47,11 +99,11 @@
 	},
 	"sources": {
 		"BankSmartContractSolidity/FirstSolidity.sol": {
-			"keccak256": "0x0373d7c38e7b656670c58124a6ab7df61c06d741d890d2f3d2dc59ed9121e33e",
+			"keccak256": "0x763042d4638303aa5996e14d3d9c4ace6a81d986aa7c000aa8bf5caea500457b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://85006e12f5ac3e228de773a0ebeab9aada50e4f0303fab8ae964173cd2e0f318",
-				"dweb:/ipfs/Qma7u612ysofZjeDQjyvG1n8qgGv5XWDP3pK4LqkTt3U4F"
+				"bzz-raw://280262fd9293791f2a6ecec8df47f70890c0b8dff33fd341bc05aad0090ad3ad",
+				"dweb:/ipfs/QmYdqG6ZiN6piTtuCRymoTJKyAJWMuVcj1qvQ1vj6QJNV8"
 			]
 		}
 	},
