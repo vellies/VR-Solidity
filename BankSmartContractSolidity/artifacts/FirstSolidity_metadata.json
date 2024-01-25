@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "BankBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BankSmartContractSolidity/FirstSolidity.sol": "FirstSolidity"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BankSmartContractSolidity/FirstSolidity.sol": {
+			"keccak256": "0x8314e5ee1e51177d4bc77493505c465fc88fa4378b1cb0719d1839a4ddbf0141",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eb09475053b39c09300ae769314c3823705f7f5766b3545e176f02502f6a349f",
+				"dweb:/ipfs/QmZ3FnKa9NvPG14yDzD2aNn4bdqZSiJWRd2Aiuduriz1Hh"
+			]
+		}
+	},
+	"version": 1
+}
