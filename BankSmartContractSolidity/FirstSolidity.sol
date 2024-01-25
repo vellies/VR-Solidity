@@ -4,6 +4,6 @@ pragma solidity 0.8.8;
 
 contract FirstSolidity {
 
-    uint public BankBalance = 50;    
+    uint public BankBalance = 50; //Static Bank balance
 
 }
