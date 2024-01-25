@@ -30,6 +30,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNewBankBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"BankSmartContractSolidity/FirstSolidity.sol": {
-			"keccak256": "0x41a61c0672f618d6acdafa5e850e891b910ebf41e4abffee8e22a51a3c83fec6",
+			"keccak256": "0x5de12871c96e7e69fd10c1b7035a996c38635fb7979848d59e5222aa736beac5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c66be9845bf05507311e45127e227944e13f7c10689eeda71b171c77bb6961dd",
-				"dweb:/ipfs/QmdGR4YSAhLat6qdDFPtKKTVqrXiqGB6YcukPbVhXX8cv2"
+				"bzz-raw://844f1f3c7d69899a2bd652d4cda1d7fb31d1372079e91fece119e9533afe0fd1",
+				"dweb:/ipfs/QmP2L9FmcarkKrEHimhzZe27sq7mf9KQiaGhEiTjRm1kXE"
 			]
 		}
 	},
