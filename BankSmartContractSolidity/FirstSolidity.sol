@@ -5,10 +5,14 @@ pragma solidity 0.8.8;
 contract FirstSolidity {
 
     uint256 public BankBalance = 50;
-    bool public OverDraftFlag = true;
-    string public AccountName = "Vellieswaran R";
-    int public NumberOfTransactions = 10;
-    address public MetaMaskWallet;
-    bytes32 public AccountEmail = "vellies@yopmail.com";
+    bool OverDraftFlag = true;
+    string AccountName = "Vellieswaran R";
+    int NumberOfTransactions = 10;
+    address MetaMaskWallet;
+    bytes32 AccountEmail = "vellies@yopmail.com";
+
+    function getBalance(uint256 _Amount) public {
+        BankBalance = _Amount;
+    }
 
 }

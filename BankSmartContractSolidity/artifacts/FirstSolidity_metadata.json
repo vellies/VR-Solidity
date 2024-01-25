@@ -7,32 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "AccountEmail",
-				"outputs": [
-					{
-						"internalType": "bytes32",
-						"name": "",
-						"type": "bytes32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "AccountName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "BankBalance",
 				"outputs": [
 					{
@@ -45,42 +19,16 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "MetaMaskWallet",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_Amount",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "NumberOfTransactions",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "OverDraftFlag",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
+				"name": "getBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -112,11 +60,11 @@
 	},
 	"sources": {
 		"BankSmartContractSolidity/FirstSolidity.sol": {
-			"keccak256": "0x91c1d79e572eff54ff3ac9519c370e09a43ff2238e6aba34e5aae496e9c7141d",
+			"keccak256": "0x41a61c0672f618d6acdafa5e850e891b910ebf41e4abffee8e22a51a3c83fec6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b6729bd8196996d1170372320055dcb28bc062578a98d4705e0ffd5640885b6",
-				"dweb:/ipfs/QmeuWeUFGrVh4oJnGybCQ7HS9e33xNpciiAQHVPVTZeJCa"
+				"bzz-raw://c66be9845bf05507311e45127e227944e13f7c10689eeda71b171c77bb6961dd",
+				"dweb:/ipfs/QmdGR4YSAhLat6qdDFPtKKTVqrXiqGB6YcukPbVhXX8cv2"
 			]
 		}
 	},
