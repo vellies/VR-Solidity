@@ -9,6 +9,6 @@ contract FirstSolidity {
     string public AccountName = "Vellieswaran R";
     int public NumberOfTransactions = 10;
     address public MetaMaskWallet;
-    bytes32 AccountEmail = "vellies@yopmail.com";
+    bytes32 public AccountEmail = "vellies@yopmail.com";
 
 }

@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "AccountEmail",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "AccountName",
 				"outputs": [
 					{
@@ -99,11 +112,11 @@
 	},
 	"sources": {
 		"BankSmartContractSolidity/FirstSolidity.sol": {
-			"keccak256": "0x763042d4638303aa5996e14d3d9c4ace6a81d986aa7c000aa8bf5caea500457b",
+			"keccak256": "0x91c1d79e572eff54ff3ac9519c370e09a43ff2238e6aba34e5aae496e9c7141d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://280262fd9293791f2a6ecec8df47f70890c0b8dff33fd341bc05aad0090ad3ad",
-				"dweb:/ipfs/QmYdqG6ZiN6piTtuCRymoTJKyAJWMuVcj1qvQ1vj6QJNV8"
+				"bzz-raw://3b6729bd8196996d1170372320055dcb28bc062578a98d4705e0ffd5640885b6",
+				"dweb:/ipfs/QmeuWeUFGrVh4oJnGybCQ7HS9e33xNpciiAQHVPVTZeJCa"
 			]
 		}
 	},
