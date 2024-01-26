@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "InstantFirstSolidity",
+				"outputs": [
+					{
+						"internalType": "contract FirstSolidity",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createFirstSolidity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BankSmartContractSolidity/SecondSolidity.sol": "SecondSolidity"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BankSmartContractSolidity/FirstSolidity.sol": {
+			"keccak256": "0x4ee275a6743a8ad4127b0057822d9464c3b6e0cee4269550dbbd96f83a320be1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://68f857e538a6e76cc34704af480845d545f0ce0126efa88fa2028eafa3c7fae8",
+				"dweb:/ipfs/QmUcz96yKC2vL9BLkZdBk9mV9FqFvh2UHJgtsiazTRynb9"
+			]
+		},
+		"BankSmartContractSolidity/SecondSolidity.sol": {
+			"keccak256": "0x3d98491b2ff58248162857af3ea7074147f7d69a8779e6fee88083c6cf7d1a56",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e9f77735d714e815a53f8db3e88d1541e89b8ac778a4274421f572acd09f98db",
+				"dweb:/ipfs/QmakB2est6LyuBxjFDbbcsAV1wgFSdABsVf4CnXkZw2Ahd"
+			]
+		}
+	},
+	"version": 1
+}
