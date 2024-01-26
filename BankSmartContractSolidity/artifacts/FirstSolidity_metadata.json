@@ -22,6 +22,66 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "TransactionList",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "FromName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TransactionStruct",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "FromName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fromName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_Amount",
 						"type": "uint256"
 					}
@@ -73,11 +133,11 @@
 	},
 	"sources": {
 		"BankSmartContractSolidity/FirstSolidity.sol": {
-			"keccak256": "0x5de12871c96e7e69fd10c1b7035a996c38635fb7979848d59e5222aa736beac5",
+			"keccak256": "0xb15e9b74bddbda4d0389e97eca63fe87d152b83e273d27bf55d397542bff9e6a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://844f1f3c7d69899a2bd652d4cda1d7fb31d1372079e91fece119e9533afe0fd1",
-				"dweb:/ipfs/QmP2L9FmcarkKrEHimhzZe27sq7mf9KQiaGhEiTjRm1kXE"
+				"bzz-raw://5b4da204d3afd4a4d0f74e8e36f971936924c4c1757ceeee401fa7f9853a2deb",
+				"dweb:/ipfs/QmbokHoxuE187pmB6K4eiKTpSjVhLEWy2DwsyoHahqtMjD"
 			]
 		}
 	},
