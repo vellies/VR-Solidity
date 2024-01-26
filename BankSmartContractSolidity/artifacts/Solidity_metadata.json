@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"BankSmartContractSolidity/ThirdSolidity.sol": "SecondSolidity"
+			"BankSmartContractSolidity/ThirdSolidity.sol": "Solidity"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -62,11 +62,11 @@
 			]
 		},
 		"BankSmartContractSolidity/ThirdSolidity.sol": {
-			"keccak256": "0x715ce2e0a740c1df0518d19ad0d0efa85bf75bf14801afa49463378a7c3ed516",
+			"keccak256": "0x726b9161fc3beca63a9d3190faba1035fccfb7e57d88b970d8829549fc190b1d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://726023cd95487b515e6a98b4f419af6f0d559ac7b3dd738ad458c11f6c7ebfc6",
-				"dweb:/ipfs/QmbsSNBPQLv1gnYKrnMH2psY29anzep3rpen6bVrUpghNn"
+				"bzz-raw://f8f7ae14351afdd9114bc371447bf6c51848cf5611841e14fa39414168ab4ed6",
+				"dweb:/ipfs/QmWNLJtbkWRcL85jxvPFbwewCz1VsbYkxYsfMsKhVjYezn"
 			]
 		}
 	},

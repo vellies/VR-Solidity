@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "InstantFirstSolidity",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "FirstSolidityList",
 				"outputs": [
 					{
 						"internalType": "contract FirstSolidity",
@@ -20,7 +26,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "createFirstSolidity",
+				"name": "createFirstSolidityList",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"BankSmartContractSolidity/ThirdSolidity.sol": "SecondSolidity"
+			"BankSmartContractSolidity/ThirdSolidity.sol": "ThirdSolidity"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -62,11 +68,11 @@
 			]
 		},
 		"BankSmartContractSolidity/ThirdSolidity.sol": {
-			"keccak256": "0x715ce2e0a740c1df0518d19ad0d0efa85bf75bf14801afa49463378a7c3ed516",
+			"keccak256": "0x651f7f3cf3618eceba796e2032694c9f7a5a3bdd65819ae157ad48416d7a47cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://726023cd95487b515e6a98b4f419af6f0d559ac7b3dd738ad458c11f6c7ebfc6",
-				"dweb:/ipfs/QmbsSNBPQLv1gnYKrnMH2psY29anzep3rpen6bVrUpghNn"
+				"bzz-raw://50927a265737386be0c8005eae5ff21a5ffd3c1f29e28dd3423c1c7bbb58e2bd",
+				"dweb:/ipfs/QmatxBB6s1yEv3HHRArPS3Xp6YkuRFL5WabMMr9A6yn969"
 			]
 		}
 	},
