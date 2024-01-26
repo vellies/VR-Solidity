@@ -53,4 +53,14 @@ contract FirstSolidity {
     function addTransactionMap(string memory _fromName, uint256 _Amount)  public {
         TransactionMap[_fromName] = _Amount;
     }
+
+    function getTransaction(uint256 _Index) external view returns(Transaction memory) {
+        return TransactionList[_Index];
+    }
+
+    function getTransactionAll() external view returns(Transaction[] memory) {
+        return TransactionList;
+    }
+
+
 }
