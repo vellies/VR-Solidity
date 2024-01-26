@@ -44,7 +44,13 @@ contract FirstSolidity {
     // calldata --> Temp Variable, can't change it.
     // memory --> Temp Variable, can change.
     // storage --> Default and permanent variable.
-    function addTransaction(string memory _fromName, uint256 _amount) public {
-        TransactionList.push(Transaction(_fromName, _amount));
+    function addTransaction(string memory _fromName, uint256 _Amount) public {
+        TransactionList.push(Transaction(_fromName, _Amount));
+    }
+
+    mapping(string => uint256) public TransactionMap;
+
+    function addTransactionMap(string memory _fromName, uint256 _Amount)  public {
+        TransactionMap[_fromName] = _Amount;
     }
 }
