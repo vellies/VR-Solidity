@@ -11,8 +11,8 @@ contract FirstSolidity {
     address MetaMaskWallet;
     bytes32 AccountEmail = "vellies@yopmail.com";
 
-    function getBalance(uint256 _Amount) public {
-        BankBalance = _Amount;
+    function newBalance(uint256 _Amount) public virtual{
+        BankBalance = BankBalance + _Amount;
     }
 
     // Function Types
